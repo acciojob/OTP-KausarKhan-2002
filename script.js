@@ -8,7 +8,6 @@ window.addEventListener("load", () => {
   codeContainer.firstElementChild.focus();
 });
 
-
 // To focus on next input element
 const focusNextInput = (e) => {
   if (e.target.nextElementSibling && e.key != "Backspace") {
