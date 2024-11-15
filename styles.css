@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+
+/*  your css code here. If applicable */
+
+* {
+	margin: 0;
+	font-family: Arial;
+}
+
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#otp_container {
+	border: 1px solid;
+	text-align: center;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+#verification_subtext {
+	font-size: .7rem;
+	margin-top: 10px;
+	color: #666;
+}
+
+.code-container {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	padding: 20px;
+}
+
+.code {
+	width: 65px;
+	height: 65px;
+	font-size: 30px;
+	text-align: center;
+	border: 1px solid #ddd;
+}
