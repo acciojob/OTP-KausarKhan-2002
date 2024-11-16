@@ -14,8 +14,9 @@ body {
 
 #otp_container {
 	border: 1px solid;
+	width: 100%;
 	text-align: center;
-	padding: 30px;
+	padding: 30px 5px;
 	border-radius: 10px;
 }
 
@@ -33,9 +34,19 @@ body {
 }
 
 .code {
-	width: 65px;
-	height: 65px;
-	font-size: 30px;
+	width: 12%;
+	height: 70px;
+	font-size: 35px;
 	text-align: center;
 	border: 1px solid #ddd;
+}
+
+#fake {
+	background: #eee;
+	width: 50%;
+	margin: 0 auto;
+	padding: 7px;
+	font-size: .5rem;
+	border-radius: 5px;
+	color: #aaa;
 }

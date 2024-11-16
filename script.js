@@ -4,9 +4,9 @@ let codeContainer = document.querySelector(".code-container");
 let codeInput = document.querySelectorAll(".code");
 
 // Focus on the first input on page load
-window.addEventListener("load", () => {
-  codeContainer.firstElementChild.focus();
-});
+// window.addEventListener("load", () => {
+//   codeContainer.firstElementChild.focus();
+// });
 
 // To focus on next input element
 const focusNextInput = (e) => {
