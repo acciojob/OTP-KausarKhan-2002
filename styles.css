@@ -1,52 +1,53 @@
 
 /*  your css code here. If applicable */
-* {
-	margin: 0;
-	font-family: Arial;
-}
 
 body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 
-#otp_container {
-	border: 1px solid;
-	width: 100%;
-	text-align: center;
-	padding: 30px 5px;
-	border-radius: 10px;
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+#verification_heading {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 #verification_subtext {
-	font-size: .7rem;
-	margin-top: 10px;
-	color: #666;
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
 }
 
 .code-container {
-	display: flex;
-	justify-content: center;
-	gap: 1rem;
-	padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .code {
-	width: 12%;
-	height: 70px;
-	font-size: 35px;
-	text-align: center;
-	border: 1px solid #ddd;
+  width: 40px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
-#fake {
-	background: #eee;
-	width: 50%;
-	margin: 0 auto;
-	padding: 7px;
-	font-size: .5rem;
-	border-radius: 5px;
-	color: #aaa;
+.code:focus {
+  outline: 2px solid #007bff;
+}
+
+.info {
+  font-size: 12px;
+  color: #999;
 }
